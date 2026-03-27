@@ -198,6 +198,28 @@ export const useArticles = () => {
               },
             },
             {
+              type: 'gallery',
+              attrs: {},
+              content: [
+                {
+                  type: 'galleryItem',
+                  attrs: { src: 'https://picsum.photos/800/600?random=1', alt: 'Фото 1' },
+                },
+                {
+                  type: 'galleryItem',
+                  attrs: { src: 'https://picsum.photos/800/600?random=2', alt: 'Фото 2' },
+                },
+                {
+                  type: 'galleryItem',
+                  attrs: { src: 'https://picsum.photos/800/600?random=3', alt: 'Фото 3' },
+                },
+                {
+                  type: 'galleryItem',
+                  attrs: { src: 'https://picsum.photos/800/600?random=4', alt: 'Фото 4' },
+                },
+              ],
+            },
+            {
               type: 'heading',
               attrs: { level: 2 },
               content: [{ type: 'text', text: 'Код' }],
