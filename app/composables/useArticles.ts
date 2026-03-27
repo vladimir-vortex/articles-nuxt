@@ -189,6 +189,15 @@ export const useArticles = () => {
               ],
             },
             {
+              type: 'image',
+              attrs: {
+                src: 'https://picsum.photos/800/450',
+                alt: 'Тестовое изображение',
+                caption: 'Тестовая подпись к изображению',
+                number: '1',
+              },
+            },
+            {
               type: 'heading',
               attrs: { level: 2 },
               content: [{ type: 'text', text: 'Код' }],
